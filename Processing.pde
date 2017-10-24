@@ -3,7 +3,9 @@ void setup() {
 
   var draw = function(){
     
+    draw();
   };
-
-  draw();
+  $( window ).on( "load", function() {
+      draw();
+  }
 }
